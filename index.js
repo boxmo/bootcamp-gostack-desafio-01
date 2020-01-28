@@ -13,7 +13,7 @@ server.use((req, res, next) => {
 });
 
 // Route middleware
-// Checks if params id and project is present
+// Checks if params id and project are present
 // Add project to req
 function checkProjectExist(req, res, next) {
   const { id } = req.params;
